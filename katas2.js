@@ -73,7 +73,7 @@ function fibonacci(n){
         fibo.push(currentFibo);
     }
     
-    return fibo[fibo.length - 1];
+    return fibo[add(fibo.length, -1)];
 }
 
 console.log(fibonacci(7));
