@@ -213,3 +213,4 @@ GitHub pages. No Canvas, por favor, envie sua url do GitHub Pages: (ex:
 https://nomerandomico.github.io/katas-javascript-2) e envie o link do
 seu repositório nos comentários. Seu projeto deverá ficar Internal.
 :::
+
