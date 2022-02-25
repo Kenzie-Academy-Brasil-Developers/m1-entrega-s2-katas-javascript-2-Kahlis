@@ -1,0 +1,7 @@
+a;b;i;i < a;result;" i++"
+4;5;undefined;undefined;0;undefined
+4;5;0;true;5;" 1"
+4;5;1;true;10;" 2"
+4;5;2;true;15;" 3"
+4;5;3;true;20;" 4"
+4;5;4;false;20;" 5"

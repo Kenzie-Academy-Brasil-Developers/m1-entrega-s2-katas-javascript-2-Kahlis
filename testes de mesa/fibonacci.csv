@@ -1,0 +1,10 @@
+n;last;actual;currentFibo;fibo;fibo.length <= n;!fibo.includes(0);!fibo.includes(1);result
+7;0;1;undefined;[];true;false;false;undefined
+7;0;1;undefined;[0];true;true;false;undefined
+7;0;1;undefined;[0,1];true;true;true;undefined
+7;1;1;1;[0,1,1];true;true;true;undefined
+7;1;2;2;[0,1,1,2];true;true;true;undefined
+7;2;3;3;[0,1,1,2,3];true;true;true;undefined
+7;3;5;5;[0,1,1,2,3,5];true;true;true;undefined
+7;5;8;8;[0,1,1,2,3,5,8];true;true;true;undefined
+7;8;13;13;[0,1,1,2,3,5,8,13];false;true;true;13
