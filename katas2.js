@@ -24,8 +24,8 @@ console.assert(multiply(4, 6) === 24, 'A função multiply não está funcionand
 // comece a criar a sua função power na linha abaixo
 function power(x, n){
     let result = x;
-    for(let i = 0; i < n - 1; i++){
-        result *= x;
+    for(let i = 0; i < add(n, -1); i++){
+        result = multiply(result, x);
     }
     return result;
 }
@@ -38,8 +38,8 @@ console.assert(power(3, 4) === 81, 'A função power não está funcionando como
 // comece a criar a sua função factorial na linha abaixo
 function factorial(n){
     let result = n;
-    for(let i = n - 1; i > 0; i--){
-        result *= i;
+    for(let i = add(n, -1); i > 0; i--){
+        result = multiply(result, i);
     }
     return result;
 }
@@ -67,7 +67,7 @@ function fibonacci(n){
             fibo.push(1);
         }
 
-        let currentFibo = last + actual;
+        let currentFibo = add(last, actual);
         last = actual;
         actual = currentFibo;
         fibo.push(currentFibo);
